@@ -1,9 +1,113 @@
-<mxfile host="app.diagrams.net" modified="2023-06-15T02:56:49.300Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" version="21.3.8" etag="LRXft_Ypfy-dhN7Iezl4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-15T03:27:01.055Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="YogdOVqeCH1hjGxjlzZL" version="21.4.0" type="github">
   <diagram name="第 1 页" id="0AAXXcjCkNHlMb_oUL8F">
-    <mxGraphModel>
+    <mxGraphModel dx="1421" dy="802" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="hxPD3YgLTONjRPZp9IFq-36" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="703" y="68" width="335" height="579" as="geometry" />
+        </mxCell>
+        <mxCell id="hxPD3YgLTONjRPZp9IFq-34" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="207" y="68" width="472" height="579" as="geometry" />
+        </mxCell>
+        <mxCell id="hxPD3YgLTONjRPZp9IFq-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hxPD3YgLTONjRPZp9IFq-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hxPD3YgLTONjRPZp9IFq-1" value="收到进房im" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="120" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="hxPD3YgLTONjRPZp9IFq-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hxPD3YgLTONjRPZp9IFq-5" target="hxPD3YgLTONjRPZp9IFq-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hxPD3YgLTONjRPZp9IFq-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hxPD3YgLTONjRPZp9IFq-5" target="hxPD3YgLTONjRPZp9IFq-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hxPD3YgLTONjRPZp9IFq-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hxPD3YgLTONjRPZp9IFq-5" target="hxPD3YgLTONjRPZp9IFq-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hxPD3YgLTONjRPZp9IFq-5" value="判断进房类型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="230" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="hxPD3YgLTONjRPZp9IFq-6" value="普通进房&lt;br&gt;不显示横幅" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="330" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="hxPD3YgLTONjRPZp9IFq-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hxPD3YgLTONjRPZp9IFq-8" target="hxPD3YgLTONjRPZp9IFq-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hxPD3YgLTONjRPZp9IFq-8" value="等级用户&lt;br&gt;普通横幅通道" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="330" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="hxPD3YgLTONjRPZp9IFq-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hxPD3YgLTONjRPZp9IFq-11" target="hxPD3YgLTONjRPZp9IFq-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hxPD3YgLTONjRPZp9IFq-11" value="贵族用户&lt;br&gt;贵族通道" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="525" y="330" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="hxPD3YgLTONjRPZp9IFq-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hxPD3YgLTONjRPZp9IFq-13" target="hxPD3YgLTONjRPZp9IFq-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hxPD3YgLTONjRPZp9IFq-13" value="加入普通通道队列" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="440" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="hxPD3YgLTONjRPZp9IFq-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hxPD3YgLTONjRPZp9IFq-15" target="hxPD3YgLTONjRPZp9IFq-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hxPD3YgLTONjRPZp9IFq-15" value="加入贵族通道队列" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="525" y="440" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="hxPD3YgLTONjRPZp9IFq-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hxPD3YgLTONjRPZp9IFq-17" target="hxPD3YgLTONjRPZp9IFq-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hxPD3YgLTONjRPZp9IFq-17" value="根据优先级排序" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="570" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="hxPD3YgLTONjRPZp9IFq-20" value="更新整个横幅的位置" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="702" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="hxPD3YgLTONjRPZp9IFq-22" value="收到礼物im" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="792" y="120" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="hxPD3YgLTONjRPZp9IFq-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hxPD3YgLTONjRPZp9IFq-23" target="hxPD3YgLTONjRPZp9IFq-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hxPD3YgLTONjRPZp9IFq-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hxPD3YgLTONjRPZp9IFq-23" target="hxPD3YgLTONjRPZp9IFq-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hxPD3YgLTONjRPZp9IFq-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hxPD3YgLTONjRPZp9IFq-23" target="hxPD3YgLTONjRPZp9IFq-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hxPD3YgLTONjRPZp9IFq-23" value="判断礼物类型，确定礼物位置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="792" y="230" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="hxPD3YgLTONjRPZp9IFq-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hxPD3YgLTONjRPZp9IFq-22" target="hxPD3YgLTONjRPZp9IFq-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hxPD3YgLTONjRPZp9IFq-27" value="加入礼物通道" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="792" y="440" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="hxPD3YgLTONjRPZp9IFq-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hxPD3YgLTONjRPZp9IFq-29" target="hxPD3YgLTONjRPZp9IFq-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hxPD3YgLTONjRPZp9IFq-29" value="根据优先级排序" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="792" y="568" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="hxPD3YgLTONjRPZp9IFq-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hxPD3YgLTONjRPZp9IFq-27" target="hxPD3YgLTONjRPZp9IFq-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hxPD3YgLTONjRPZp9IFq-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hxPD3YgLTONjRPZp9IFq-37" target="hxPD3YgLTONjRPZp9IFq-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hxPD3YgLTONjRPZp9IFq-37" value="相同礼物连击" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="721" y="330" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="hxPD3YgLTONjRPZp9IFq-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hxPD3YgLTONjRPZp9IFq-38" target="hxPD3YgLTONjRPZp9IFq-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hxPD3YgLTONjRPZp9IFq-38" value="自己的礼物" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="883" y="330" width="120" height="45" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
